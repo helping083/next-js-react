@@ -1,8 +1,13 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../public/styles/utils.module.scss';
-
+import { useEffect } from 'react'
 export default function Home() {
+
+  useEffect(() => {
+    console.log('works')
+  }, []);
+
   return (
     <Layout home>
       <Head>
