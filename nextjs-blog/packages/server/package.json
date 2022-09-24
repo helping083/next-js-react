@@ -1,0 +1,36 @@
+{
+  "name": "@marketplace/server",
+  "version": "0.0.0",
+  "description": "server by using expressjs",
+  "keywords": [
+    "express",
+    "mongodb",
+    "backend",
+    "rest",
+    "api"
+  ],
+  "author": "Oleh <oleh.voitynskyi@devcom.com>",
+  "homepage": "http://index.js",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helping083/next-js-react.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/server.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/helping083/next-js-react/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

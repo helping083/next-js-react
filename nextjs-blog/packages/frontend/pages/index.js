@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Button } from "shared/src/button"
+import {Button} from 'shared'
 
-export default function Home() {
+export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
