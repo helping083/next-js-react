@@ -28,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/helping083/next-js-react/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
   }
 }

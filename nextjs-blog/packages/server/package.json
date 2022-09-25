@@ -31,6 +31,8 @@
     "url": "https://github.com/helping083/next-js-react/issues"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0"
   }
 }

@@ -3,7 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Button} from 'shared'
 
-export default function Home({data}) {
+export default function Home({meetups}) {
+  console.log(meetups)
   return (
     <div className={styles.container}>
       <Head>
@@ -68,4 +69,13 @@ export default function Home({data}) {
       </footer>
     </div>
   )
+}
+
+export async function getServerSideProps(context) {
+  console.log('works')
+  const test = await fetch(`http://localhost:3000/api/search`)
+  const res = await test.json()
+  return {
+    props: {...res}, // will be passed to the page component as props
+  }
 }
