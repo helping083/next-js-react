@@ -2,9 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Button} from 'shared'
+import React from 'react'
+import { Container } from 'semantic-ui-react'
 
-export default function Home({meetups}) {
-  console.log(meetups)
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +14,7 @@ export default function Home({meetups}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <Container as='main' className={styles.main} fluid={true}>
         <Button/>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -53,7 +54,7 @@ export default function Home({meetups}) {
             </p>
           </a>
         </div>
-      </main>
+      </Container>
 
       <footer className={styles.footer}>
         <a
