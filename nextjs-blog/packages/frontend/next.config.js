@@ -16,4 +16,4 @@ const nextConfig = {
   productionBrowserSourceMaps: true
 }
 
-module.exports = withPlugins([withTM(['shared', "@marketplace/store"])], nextConfig)
+module.exports = withPlugins([withTM(['shared', "@marketplace/server"])], nextConfig)

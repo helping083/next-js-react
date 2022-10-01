@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import {Button} from 'shared'
 import React from 'react'
 import { Container } from 'semantic-ui-react'
 
-export default function Home() {
+export default function Home(props) {
+  console.log(props)
   return (
     <div className={styles.container}>
       <Head>
@@ -76,6 +77,7 @@ export async function getServerSideProps(context) {
   console.log('works')
   const test = await fetch(`http://localhost:3000/api/search`)
   const res = await test.json()
+  console.log(res)
   return {
     props: {...res}, // will be passed to the page component as props
   }
