@@ -1,1 +1,2 @@
-export * from './layoutChooser'
+export * from './layoutChooser';
+export * from './query';

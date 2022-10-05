@@ -12,6 +12,7 @@
   },
   "scripts": {
     "bootstrap": "yarn install && lerna bootstrap",
-    "frontend": "lerna run --scope frontend --stream dev"
+    "frontend": "lerna run --scope frontend --stream dev",
+    "dev": "lerna run --scope frontend --stream dev"
   }
 }
