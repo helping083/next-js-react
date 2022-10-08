@@ -31,7 +31,7 @@
     "url": "https://github.com/helping083/next-js-react/issues"
   },
   "dependencies": {
-    "@common/frontend": "0.0.0",
+    "@aws/marketplace": "0.0.0",
     "dotenv": "^16.0.2",
     "mongodb": "^4.10.0"
   },

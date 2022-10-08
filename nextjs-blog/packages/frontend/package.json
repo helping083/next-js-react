@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@core/marketplace": "0.0.0",
     "@common/frontend": "0.0.0",
     "@marketplace/server": "0.0.0",
     "dotenv": "^16.0.2",

@@ -17,4 +17,4 @@ const nextConfig = {
   pageExtensions: ['page.js'],
 }
 
-module.exports = withPlugins([withTM(['shared', "@marketplace/server", "@common/frontend"])], nextConfig)
+module.exports = withPlugins([withTM(['shared', "@marketplace/server", "@common/frontend", "@core/marketplace"])], nextConfig)

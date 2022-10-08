@@ -1,11 +1,7 @@
 {
   "name": "@common/frontend",
   "version": "0.0.0",
-  "description": "interfaces api services http",
-  "keywords": [
-    "http",
-    "interfaces"
-  ],
+  "description": "> TODO: description",
   "author": "Oleh <oleh.voitynskyi@devcom.com>",
   "homepage": "http://index.js",
   "license": "ISC",
