@@ -2,7 +2,7 @@ import styles from '../../styles/Home.module.css'
 import React from 'react'
 import { dehydrate } from 'react-query'
 import { createQueryClient } from 'shared'
-import useSearchQuery from './useMainPage';
+import useSearchQuery from '../react-query-hooks/useMainPage';
 
 export default function Home(props) {
   const { search, isFetching } = useSearchQuery();
