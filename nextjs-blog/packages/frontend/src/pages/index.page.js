@@ -4,7 +4,7 @@ import { dehydrate } from 'react-query'
 import { createQueryClient } from 'shared'
 import useSearchQuery from '../react-query-hooks/useMainPage';
 
-export default function Home(props) {
+export default function Home() {
   const { search, isFetching } = useSearchQuery();
   return (
     <div className={styles.container}>
@@ -17,7 +17,7 @@ export default function Home(props) {
   )
 }
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   const queryClient = createQueryClient()
 
   await queryClient.prefetchQuery('pokemons', async () => {

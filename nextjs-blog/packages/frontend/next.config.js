@@ -14,7 +14,7 @@ const withTM = require('next-transpile-modules')
 const nextConfig = {
   reactStrictMode: false,
   productionBrowserSourceMaps: true,
-  pageExtensions: ['page.js'],
+  pageExtensions: ['page.ts', 'page.tsx', 'page.js'],
 }
 
 module.exports = withPlugins([withTM(['shared', "@marketplace/server", "@common/frontend", "@core/marketplace"])], nextConfig)

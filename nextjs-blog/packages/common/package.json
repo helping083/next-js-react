@@ -5,7 +5,7 @@
   "author": "Oleh <oleh.voitynskyi@devcom.com>",
   "homepage": "http://index.js",
   "license": "ISC",
-  "main": "index.js",
+  "main": "index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
